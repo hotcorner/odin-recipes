@@ -18,6 +18,7 @@ h1 {
 }
 
 nav {
+    clear: both;
     background-color: moccasin;
 }
 
@@ -47,4 +48,24 @@ nav ul li a:hover {
     background-color: darkolivegreen;
     color: moccasin;
     text-decoration: none;
+}
+
+img {
+    max-width: 183px;
+    float: left;
+    margin-right: 1rem;
+}
+
+section {
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+section ul,
+section ol {
+    list-style-position: inside;
+}
+
+section ul li ol {
+    margin-left: 30px;
 }
